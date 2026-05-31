@@ -1,0 +1,29 @@
+# Mengabaikan folder dependency dan hasil build Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Mengabaikan file log dan cache jalannya aplikasi
+*.log
+.eslintcache
+.turbo/
+
+# Mengabaikan file gambar lokal agar Cline tidak membaca kode biner gambar
+public/images/
+public/favicon.ico
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.webp
+
+# Mengabaikan file konfigurasi environment sensitif
+.env
+.env.local
+.env*.local
+
+# Mengabaikan folder git internal
+.git/
+.github/
