@@ -41,11 +41,13 @@ const ContactForm = () => {
           whatsapp: formData.whatsapp,
           company: formData.company,
           description: formData.description,
-          created_at: new Date().toISOString(),
         },
       ]);
 
-      if (supabaseError) throw supabaseError;
+      if (supabaseError) {
+        console.error("Supabase Error Details:", supabaseError);
+        throw new Error(supabaseError.message);
+      }
 
       setSubmitted(true);
       setFormData({
@@ -56,8 +58,12 @@ const ContactForm = () => {
         description: "",
       });
     } catch (err: any) {
-      console.error("Error submitting form:", err.message);
-      setError("Gagal mengirim pesan. Silakan coba lagi nanti.");
+      console.error("Form Submission Error:", err);
+      setError(
+        err.message?.includes("policy")
+          ? "Izin ditolak (RLS Policy). Pastikan tabel leads mengizinkan insert publik."
+          : "Gagal mengirim pesan. Detail: " + (err.message || "Unknown error"),
+      );
     } finally {
       setLoading(false);
     }
