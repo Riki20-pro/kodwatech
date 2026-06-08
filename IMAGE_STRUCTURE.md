@@ -4,12 +4,13 @@ Untuk mengganti gambar placeholder dengan aset asli KODWA TECH, silakan buat str
 
 ## 1. Portfolio (`public/images/portfolio/`)
 
-Folder ini menyimpan gambar utama untuk showcase proyek. Format yang disarankan adalah `.jpg` atau `.png` dengan rasio 16:9.
+Folder ini menyimpan gambar utama untuk showcase proyek. Format yang disarankan adalah `.png` atau `.jpg` dengan rasio 16:9.
 
-- `ecommerce-premium.jpg`
-- `healthcare-app.jpg`
-- `fintech-dashboard.jpg`
-- `real-estate-portal.jpg`
+- `sinar-fajar.png`
+- `financeus.png`
+- `coffee-senja.png`
+- `pt-mar.png`
+- `vastara.png`
 
 ## 2. Blog (`public/images/blog/`)
 

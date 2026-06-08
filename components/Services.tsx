@@ -109,8 +109,9 @@ const Services = ({ isHome = false }: { isHome?: boolean }) => {
                   Standar Kualitas & Teknologi
                 </h2>
                 <p className="text-gray-500 max-w-xl mx-auto">
-                  Kami tidak hanya membangun, kami memastikan setiap produk
-                  memiliki standar performa tertinggi.
+                  Setiap infrastruktur digital dan solusi yang kami bangun
+                  dirancang dengan cermat untuk memastikan bisnis Anda berjalan
+                  lebih efisien, aman, dan siap bersaing di era digital.
                 </p>
               </div>
 
@@ -120,12 +121,13 @@ const Services = ({ isHome = false }: { isHome?: boolean }) => {
                     <Zap size={28} className="text-primary-purple" />
                   </div>
                   <h4 className="text-xl font-bold mb-4">
-                    Performa Kecepatan Tinggi
+                    Performa & Optimasi Tinggi
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                    Optimasi Core Web Vitals dan sistem caching tingkat lanjut
-                    untuk memastikan website super cepat dan responsif di semua
-                    perangkat.
+                    Optimasi performa tingkat lanjut dan arsitektur modern untuk
+                    memastikan aplikasi, website, dan sistem otomatisasi Anda
+                    berjalan super cepat, responsif, serta memberikan pengalaman
+                    pengguna yang mulus.
                   </p>
                 </div>
 
@@ -133,10 +135,14 @@ const Services = ({ isHome = false }: { isHome?: boolean }) => {
                   <div className="bg-primary-purple/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                     <Shield size={28} className="text-primary-purple" />
                   </div>
-                  <h4 className="text-xl font-bold mb-4">Keamanan Maksimal</h4>
+                  <h4 className="text-xl font-bold mb-4">
+                    Keamanan & Privasi Data
+                  </h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
                     Implementasi protokol keamanan berlapis, enkripsi data
-                    end-to-end, dan database aman dari serangan siber eksternal.
+                    end-to-end, dan konfigurasi sistem yang ketat untuk menjamin
+                    keamanan database serta kerahasiaan data sensitif bisnis
+                    Anda.
                   </p>
                 </div>
 
@@ -144,11 +150,14 @@ const Services = ({ isHome = false }: { isHome?: boolean }) => {
                   <div className="bg-primary-purple/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                     <Maximize size={28} className="text-primary-purple" />
                   </div>
-                  <h4 className="text-xl font-bold mb-4">Skalabilitas</h4>
+                  <h4 className="text-xl font-bold mb-4">
+                    Arsitektur Skalabel & Integrasi
+                  </h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                    Arsitektur sistem yang modular memungkinkan bisnis Anda
-                    berkembang tanpa batas, siap ditambahkan fitur baru kapan
-                    saja.
+                    Struktur kode yang modular dan clean code memudahkan
+                    platform digital Anda bertransformasi tanpa batas, siap
+                    menerima lonjakan data besar, serta fleksibel untuk
+                    diintegrasikan dengan fitur baru kapan saja.
                   </p>
                 </div>
               </div>
