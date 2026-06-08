@@ -18,13 +18,14 @@ export const projects = [
       "Framer Motion",
     ],
     image: "/images/portfolio/sinar-fajar.png",
+    demoUrl: "https://sinar-fajar-71h3.vercel.app/",
   },
   {
     id: 2,
     title: "Financeus – Multi-User Financial Management",
     category: "APLIKASI WEB INTERNAL",
-    status: "Live Demo",
-    hasDemo: true,
+    status: "Private Client",
+    hasDemo: false,
     description:
       "Aplikasi manajemen keuangan internal berbasis web multi-user untuk pencatatan transaksi masuk dan keluar secara real-time, transparansi saldo total antar anggota tim, dan pembatasan hak akses data demi keamanan finansial.",
     techStack: [
@@ -52,7 +53,7 @@ export const projects = [
     id: 4,
     title: "PT-MAR – Manufacturing & Production Dashboard",
     category: "COMPANY PROFILE & MANAGEMENT",
-    status: "Private Client",
+    status: "Internal System",
     hasDemo: false,
     description:
       "Dashboard manajemen dan statistik internal untuk PT-MAR yang melacak penjualan kotor, margin keuntungan, perintah produksi barang, katalog produk, serta diagram statistik penjualan mingguan secara akurat. Bersifat rahasia dan tidak tersedia untuk publik.",
@@ -69,6 +70,57 @@ export const projects = [
       "Website pencarian properti interaktif (rumah, apartemen, villa, ruko) yang dilengkapi dengan showcase counter statistik (500+ properti terjual, 1000+ klien puas) serta formulir pemesanan unit dan konsultasi gratis.",
     techStack: ["PHP Native", "Tailwind CSS", "MySQL"],
     image: "/images/portfolio/vastara.png",
+  },
+  {
+    id: 6,
+    title: "Liwet POS - Android & iOS Kasir Restoran",
+    category: "Mobile App Development",
+    status: "Internal System",
+    hasDemo: false,
+    description:
+      "Aplikasi Point of Sale (POS) internal berbasis mobile untuk efisiensi operasional Restoran Nasi Liwet Nusantara.",
+    techStack: ["Next.js", "Supabase", "Tailwind CSS", "WebIntoApp"],
+    image: "/images/portfolio/liwet-pos-mockup.png",
+    video: "/videos/portfolio/liwet-pos-demo.mp4",
+    tags: ["Next.js", "Supabase", "Tailwind CSS", "WebIntoApp"],
+    details: {
+      challenge:
+        "Restoran Nasi Liwet Nusantara membutuhkan sistem kasir mobile internal yang cepat, andal, dan mudah dioperasikan oleh staf di lapangan tanpa kerumitan instalasi server lokal. Sistem juga harus merekam data keuangan secara real-time demi menghindari selisih laporan harian.",
+      solution:
+        "Kami membangun Liwet POS menggunakan Next.js dan Tailwind CSS yang dioptimasi untuk antarmuka mobile, lalu dibundel menjadi aplikasi Android & iOS menggunakan WebIntoApp. Backend ditenagai oleh Supabase Cloud Database untuk manajemen menu, sinkronisasi transaksi instan, serta kalkulasi otomatis pendapatan harian.",
+      results: [
+        "Sistem kasir berbasis mobile yang responsif dengan fitur kategori menu instan (Paket Liwet, Lauk Satuan, Minuman).",
+        "Sinkronisasi real-time tipe pesanan (Dine-in/Takeaway) dan nomor meja langsung ke database pusat.",
+        "Dashboard analitik internal yang menampilkan total pendapatan, jumlah transaksi, serta daftar menu terlaris secara akurat.",
+        "Distribusi aplikasi internal yang praktis dan efisien untuk perangkat operasional restoran.",
+      ],
+    },
+  },
+  {
+    id: 7,
+    title: "Zenith Analytics - AI Digital Marketing Dashboard",
+    category: "UI/UX Design",
+    status: "Project Concept",
+    hasDemo: true,
+    description:
+      "Dashboard analitik performa pemasaran digital yang ditenagai oleh AI untuk memberikan insight pasar secara real-time.",
+    techStack: ["Figma", "Prototyping", "UX Research", "Data Visualization"],
+    image: "/images/portfolio/zenith-analytics-1.png",
+    video: "",
+    demoUrl:
+      "https://www.figma.com/proto/OOd0uQ8ha0dBVj1DaEvdJP/Untitled?node-id=1-2&p=f&t=bRoWlkmA7AuYevwD-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+    tags: ["UI/UX", "AI", "Dashboard", "Analytics"],
+    details: {
+      challenge:
+        "Membuat visualisasi data yang kompleks menjadi mudah dipahami dan intuitif bagi manajer pemasaran.",
+      solution:
+        "Menggunakan sistem desain modern dengan pendekatan dark-mode, visualisasi grafik interaktif, dan notifikasi AI yang proaktif.",
+      results: [
+        "Desain antarmuka dashboard yang futuristik dan bersih.",
+        "Integrasi notifikasi AI yang intuitif untuk pengambilan keputusan cepat.",
+        "Prototipe interaktif dengan transisi yang halus menggunakan Smart Animate.",
+      ],
+    },
   },
 ];
 
